@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fsm:FSMSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fsm="http://org.gemoc.sample.legacyfsm.xsfsm.xsfsm/fsm/" name="sys1">
+  <ownedStateMachines name="BitShifting1" initialState="//@ownedStateMachines.0/@ownedStates.0">
+    <ownedStates name="S0" outgoingTransitions="//@ownedStateMachines.0/@ownedTransitions.0 //@ownedStateMachines.0/@ownedTransitions.1"/>
+    <ownedStates name="S1" outgoingTransitions="//@ownedStateMachines.0/@ownedTransitions.3 //@ownedStateMachines.0/@ownedTransitions.4" incomingTransitions="//@ownedStateMachines.0/@ownedTransitions.0 //@ownedStateMachines.0/@ownedTransitions.3 //@ownedStateMachines.0/@ownedTransitions.5"/>
+    <ownedStates name="S2" outgoingTransitions="//@ownedStateMachines.0/@ownedTransitions.2 //@ownedStateMachines.0/@ownedTransitions.5" incomingTransitions="//@ownedStateMachines.0/@ownedTransitions.1 //@ownedStateMachines.0/@ownedTransitions.2 //@ownedStateMachines.0/@ownedTransitions.4"/>
+    <ownedTransitions name="S0_to_S1" source="//@ownedStateMachines.0/@ownedStates.0" target="//@ownedStateMachines.0/@ownedStates.1" input="1" output="0"/>
+    <ownedTransitions name="S0_to_S2" source="//@ownedStateMachines.0/@ownedStates.0" target="//@ownedStateMachines.0/@ownedStates.2" input="0" output="0"/>
+    <ownedTransitions name="S2_to_S2" source="//@ownedStateMachines.0/@ownedStates.2" target="//@ownedStateMachines.0/@ownedStates.2" input="0" output="0"/>
+    <ownedTransitions name="S1_to_S1" source="//@ownedStateMachines.0/@ownedStates.1" target="//@ownedStateMachines.0/@ownedStates.1" input="1" output="1"/>
+    <ownedTransitions name="S1_to_S2" source="//@ownedStateMachines.0/@ownedStates.1" target="//@ownedStateMachines.0/@ownedStates.2" input="0" output="1"/>
+    <ownedTransitions name="S2_to_S1" source="//@ownedStateMachines.0/@ownedStates.2" target="//@ownedStateMachines.0/@ownedStates.1" input="1" output="0"/>
+  </ownedStateMachines>
+  <ownedStateMachines name="BitShifting2" initialState="//@ownedStateMachines.1/@ownedStates.0">
+    <ownedStates name="S0" outgoingTransitions="//@ownedStateMachines.1/@ownedTransitions.0 //@ownedStateMachines.1/@ownedTransitions.1"/>
+    <ownedStates name="S1" outgoingTransitions="//@ownedStateMachines.1/@ownedTransitions.3 //@ownedStateMachines.1/@ownedTransitions.4" incomingTransitions="//@ownedStateMachines.1/@ownedTransitions.0 //@ownedStateMachines.1/@ownedTransitions.3 //@ownedStateMachines.1/@ownedTransitions.5"/>
+    <ownedStates name="S2" outgoingTransitions="//@ownedStateMachines.1/@ownedTransitions.2 //@ownedStateMachines.1/@ownedTransitions.5" incomingTransitions="//@ownedStateMachines.1/@ownedTransitions.1 //@ownedStateMachines.1/@ownedTransitions.2 //@ownedStateMachines.1/@ownedTransitions.4"/>
+    <ownedTransitions name="S0_to_S1" source="//@ownedStateMachines.1/@ownedStates.0" target="//@ownedStateMachines.1/@ownedStates.1" input="1" output="0"/>
+    <ownedTransitions name="S0_to_S2" source="//@ownedStateMachines.1/@ownedStates.0" target="//@ownedStateMachines.1/@ownedStates.2" input="0" output="0"/>
+    <ownedTransitions name="S2_to_S2" source="//@ownedStateMachines.1/@ownedStates.2" target="//@ownedStateMachines.1/@ownedStates.2" input="0" output="0"/>
+    <ownedTransitions name="S1_to_S1" source="//@ownedStateMachines.1/@ownedStates.1" target="//@ownedStateMachines.1/@ownedStates.1" input="1" output="1"/>
+    <ownedTransitions name="S1_to_S2" source="//@ownedStateMachines.1/@ownedStates.1" target="//@ownedStateMachines.1/@ownedStates.2" input="0" output="1"/>
+    <ownedTransitions name="S2_to_S1" source="//@ownedStateMachines.1/@ownedStates.2" target="//@ownedStateMachines.1/@ownedStates.1" input="1" output="0"/>
+  </ownedStateMachines>
+  <ownedBuffer name="b1to2" inputs="//@ownedStateMachines.0" outputs="//@ownedStateMachines.1"/>
+  <ownedBuffer name="initBuf" inputs="//@ownedStateMachines.1" outputs="//@ownedStateMachines.0">
+    <initialValue>1</initialValue>
+    <initialValue>0</initialValue>
+    <initialValue>1</initialValue>
+  </ownedBuffer>
+</fsm:FSMSystem>

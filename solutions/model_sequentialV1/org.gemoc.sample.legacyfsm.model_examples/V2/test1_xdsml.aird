@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:fsm="http://org.gemoc.sample.legacyfsm.xsfsm.xsfsm/fsm/" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_ZwryYJOvEeeumqzVUmyYOg" selectedViews="_aD6QYJOvEeeumqzVUmyYOg" version="11.1.0.201608251200">
+    <semanticResources>test1_xdsml.fsm</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_aD6QYJOvEeeumqzVUmyYOg">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_aFC40JOvEeeumqzVUmyYOg" name="sys1" representation="_aFC40ZOvEeeumqzVUmyYOg">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']"/>
+        <target xmi:type="fsm:FSMSystem" href="test1_xdsml.fsm#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_aFC40ZOvEeeumqzVUmyYOg" name="sys1">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_aFC40pOvEeeumqzVUmyYOg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_aFC405OvEeeumqzVUmyYOg"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_aFEG8JOvEeeumqzVUmyYOg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_aFEG8ZOvEeeumqzVUmyYOg" type="Sirius" element="_aFC40ZOvEeeumqzVUmyYOg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_aFEG85OvEeeumqzVUmyYOg" type="2001" element="_aFC41ZOvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFEuAJOvEeeumqzVUmyYOg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_aFEuAZOvEeeumqzVUmyYOg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mVNMcJO7Eee2v9nMqT5XRQ" type="3003" element="_mUsPEJO7Eee2v9nMqT5XRQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mVNMcZO7Eee2v9nMqT5XRQ" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mVNMcpO7Eee2v9nMqT5XRQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_aFEG9JOvEeeumqzVUmyYOg" fontColor="16777215" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFEG9ZOvEeeumqzVUmyYOg" x="435" y="377" width="117" height="59"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_aFEuApOvEeeumqzVUmyYOg" type="2001" element="_aFC415OvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFEuBZOvEeeumqzVUmyYOg" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_aFEuBpOvEeeumqzVUmyYOg" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_mVPBoJO7Eee2v9nMqT5XRQ" type="3003" element="_mUtdMJO7Eee2v9nMqT5XRQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_mVPBoZO7Eee2v9nMqT5XRQ" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mVPBopO7Eee2v9nMqT5XRQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_aFEuA5OvEeeumqzVUmyYOg" fontColor="16777215" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFEuBJOvEeeumqzVUmyYOg" x="493" y="116" width="88" height="58"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_aFFVEJOvEeeumqzVUmyYOg" type="2002" element="_aFC42ZOvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFFVE5OvEeeumqzVUmyYOg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_aFFVFJOvEeeumqzVUmyYOg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_afVAEJO6EeezXo5z341mVQ" type="3007" element="_adsoYJO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afZ4kJO6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afZ4kZO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_affYIJO6EeezXo5z341mVQ" type="3016" element="_aeJ7YJO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_affYIZO6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_affYIpO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afVAEZO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afVAEpO6EeezXo5z341mVQ" x="198" y="139" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_afeKAJO6EeezXo5z341mVQ" type="3007" element="_aeLJgJO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afeKA5O6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afeKBJO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_aff_MJO6EeezXo5z341mVQ" type="3016" element="_aeLwkJO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_aff_MZO6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aff_MpO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afeKAZO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afeKApO6EeezXo5z341mVQ" x="82" y="110" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_afexEJO6EeezXo5z341mVQ" type="3007" element="_aeMXoJO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afexE5O6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afexFJO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_aff_M5O6EeezXo5z341mVQ" type="3016" element="_aeM-sJO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_aff_NJO6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aff_NZO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afexEZO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afexEpO6EeezXo5z341mVQ" x="140" y="52" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_aFFVFZOvEeeumqzVUmyYOg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_aFFVFpOvEeeumqzVUmyYOg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_aFFVEZOvEeeumqzVUmyYOg" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFFVEpOvEeeumqzVUmyYOg" x="725" y="29" width="293" height="264"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_aFFVF5OvEeeumqzVUmyYOg" type="2002" element="_aFC44JOvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFF8IJOvEeeumqzVUmyYOg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_aFF8IZOvEeeumqzVUmyYOg" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_afhNUJO6EeezXo5z341mVQ" type="3007" element="_aeNlwJO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afhNU5O6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afhNVJO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_afibcpO6EeezXo5z341mVQ" type="3016" element="_aeOz4JO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_afibc5O6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afibdJO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afhNUZO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afhNUpO6EeezXo5z341mVQ" x="180" y="139" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_afh0YJO6EeezXo5z341mVQ" type="3007" element="_aeOz4ZO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afh0Y5O6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afh0ZJO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_afjCgJO6EeezXo5z341mVQ" type="3016" element="_aePa8JO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_afjCgZO6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afjCgpO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afh0YZO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afh0YpO6EeezXo5z341mVQ" x="58" y="139" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_afh0ZZO6EeezXo5z341mVQ" type="3007" element="_aeQCAJO6EeezXo5z341mVQ">
+              <children xmi:type="notation:Node" xmi:id="_afibcJO6EeezXo5z341mVQ" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_afibcZO6EeezXo5z341mVQ" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_afjCg5O6EeezXo5z341mVQ" type="3016" element="_aeQpEJO6EeezXo5z341mVQ">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_afjChJO6EeezXo5z341mVQ" fontName="Noto Sans"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afjChZO6EeezXo5z341mVQ"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_afh0ZpO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afh0Z5O6EeezXo5z341mVQ" x="87" y="81" width="30" height="30"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_aFF8IpOvEeeumqzVUmyYOg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_aFF8I5OvEeeumqzVUmyYOg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_aFFVGJOvEeeumqzVUmyYOg" fontName="Noto Sans"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFFVGZOvEeeumqzVUmyYOg" x="18" y="29" width="268" height="264"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GIYEIJOxEeeU5ZSt2AtuEQ" visible="false" type="2001" element="_GFOCcJOxEeeU5ZSt2AtuEQ">
+          <children xmi:type="notation:Node" xmi:id="_GIf_8JOxEeeU5ZSt2AtuEQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GIf_8ZOxEeeU5ZSt2AtuEQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GImtoJOxEeeU5ZSt2AtuEQ" type="3013" element="_GGdYkJOxEeeU5ZSt2AtuEQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GImtoZOxEeeU5ZSt2AtuEQ" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GImtopOxEeeU5ZSt2AtuEQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GIYEIZOxEeeU5ZSt2AtuEQ" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIYEIpOxEeeU5ZSt2AtuEQ" y="-29" width="301" height="59"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_GIk4cJOxEeeU5ZSt2AtuEQ" visible="false" type="2001" element="_GGemsJOxEeeU5ZSt2AtuEQ">
+          <children xmi:type="notation:Node" xmi:id="_GIlfgJOxEeeU5ZSt2AtuEQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_GIlfgZOxEeeU5ZSt2AtuEQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_GInUsJOxEeeU5ZSt2AtuEQ" type="3013" element="_GGfNwJOxEeeU5ZSt2AtuEQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_GInUsZOxEeeU5ZSt2AtuEQ" fontName="Noto Sans"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GInUspOxEeeU5ZSt2AtuEQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_GIk4cZOxEeeU5ZSt2AtuEQ" fontName="Noto Sans" fontHeight="8" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GIk4cpOxEeeU5ZSt2AtuEQ" x="725" y="-29" width="301" height="59"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_aFEG8pOvEeeumqzVUmyYOg"/>
+        <edges xmi:type="notation:Edge" xmi:id="_aFPtIpOvEeeumqzVUmyYOg" type="4001" element="_aFDgBpOvEeeumqzVUmyYOg" source="_aFEG85OvEeeumqzVUmyYOg" target="_aFFVEJOvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFQUMJOvEeeumqzVUmyYOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQUMZOvEeeumqzVUmyYOg" x="1" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQUMpOvEeeumqzVUmyYOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQUM5OvEeeumqzVUmyYOg" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQUNJOvEeeumqzVUmyYOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQUNZOvEeeumqzVUmyYOg" x="-21"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_aFPtI5OvEeeumqzVUmyYOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_aFPtJJOvEeeumqzVUmyYOg" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aFPtJZOvEeeumqzVUmyYOg" points="[6, -4, -257, 199]$[269, -4, 6, 199]$[265, -110, 2, 93]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQUNpOvEeeumqzVUmyYOg" id="(0.9487179487179487,0.4067796610169492)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQUN5OvEeeumqzVUmyYOg" id="(0.2901023890784983,0.6485755041004625)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_aFQUOJOvEeeumqzVUmyYOg" type="4001" element="_aFDgCZOvEeeumqzVUmyYOg" source="_aFEuApOvEeeumqzVUmyYOg" target="_aFFVF5OvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFQUPJOvEeeumqzVUmyYOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQUPZOvEeeumqzVUmyYOg" x="14" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQUPpOvEeeumqzVUmyYOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQUP5OvEeeumqzVUmyYOg" x="9" y="-6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQ7QJOvEeeumqzVUmyYOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQ7QZOvEeeumqzVUmyYOg" x="7" y="-8"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_aFQUOZOvEeeumqzVUmyYOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_aFQUOpOvEeeumqzVUmyYOg" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aFQUO5OvEeeumqzVUmyYOg" points="[-3, 5, 212, 4]$[-93, 5, 122, 4]$[-212, 5, 3, 4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQ7QpOvEeeumqzVUmyYOg" id="(0.03409090909090909,0.4482758620689655)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQ7Q5OvEeeumqzVUmyYOg" id="(0.9888059701492538,0.4356060606060606)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_aFQ7RJOvEeeumqzVUmyYOg" type="4001" element="_aFDgDJOvEeeumqzVUmyYOg" source="_aFEG85OvEeeumqzVUmyYOg" target="_aFFVF5OvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFQ7SJOvEeeumqzVUmyYOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQ7SZOvEeeumqzVUmyYOg" x="63" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQ7SpOvEeeumqzVUmyYOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQ7S5OvEeeumqzVUmyYOg" x="24" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFQ7TJOvEeeumqzVUmyYOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFQ7TZOvEeeumqzVUmyYOg" x="32" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_aFQ7RZOvEeeumqzVUmyYOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_aFQ7RpOvEeeumqzVUmyYOg" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aFQ7R5OvEeeumqzVUmyYOg" points="[-1, 0, 322, 165]$[-323, 0, 0, 165]$[-323, -113, 0, 52]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQ7TpOvEeeumqzVUmyYOg" id="(0.008547008547008548,0.4576271186440678)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFQ7T5OvEeeumqzVUmyYOg" id="(0.35867216208904246,0.8015267175572519)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_aFRiUJOvEeeumqzVUmyYOg" type="4001" element="_aFDgD5OvEeeumqzVUmyYOg" source="_aFEuApOvEeeumqzVUmyYOg" target="_aFFVEJOvEeeumqzVUmyYOg">
+          <children xmi:type="notation:Node" xmi:id="_aFRiVJOvEeeumqzVUmyYOg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFRiVZOvEeeumqzVUmyYOg" x="-9" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFRiVpOvEeeumqzVUmyYOg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFRiV5OvEeeumqzVUmyYOg" x="-2" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_aFRiWJOvEeeumqzVUmyYOg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFRiWZOvEeeumqzVUmyYOg" x="3" y="5"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_aFRiUZOvEeeumqzVUmyYOg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_aFRiUpOvEeeumqzVUmyYOg" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aFRiU5OvEeeumqzVUmyYOg" points="[1, 5, -170, 0]$[145, 5, -26, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFRiWpOvEeeumqzVUmyYOg" id="(0.9886363636363636,0.43103448275862066)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aFRiW5OvEeeumqzVUmyYOg" id="(0.09215017064846416,0.4487237499299711)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_afvPwJO6EeezXo5z341mVQ" type="4001" element="_aepqoJO6EeezXo5z341mVQ" source="_afVAEJO6EeezXo5z341mVQ" target="_afeKAJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_afwd4JO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afwd4ZO6EeezXo5z341mVQ" x="38" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_afxE8JO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afxE8ZO6EeezXo5z341mVQ" x="3" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_afxE8pO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_afxE85O6EeezXo5z341mVQ" x="5" y="-11"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_afvPwZO6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_afvPwpO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_afvPw5O6EeezXo5z341mVQ" points="[-7, -1, 91, 14]$[-93, -13, 5, 2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af4ZsJO6EeezXo5z341mVQ" id="(0.23333333333333334,0.3333333333333333)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af4ZsZO6EeezXo5z341mVQ" id="(0.8333333333333334,0.8)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af5AwJO6EeezXo5z341mVQ" type="4001" element="_aesG4JO6EeezXo5z341mVQ" source="_afVAEJO6EeezXo5z341mVQ" target="_afexEJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af5AxJO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af5AxZO6EeezXo5z341mVQ" x="-1" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af5AxpO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af5Ax5O6EeezXo5z341mVQ" x="6" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af5n0JO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af5n0ZO6EeezXo5z341mVQ" x="6" y="-1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af5AwZO6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af5AwpO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af5Aw5O6EeezXo5z341mVQ" points="[0, 0, 58, 57]$[-58, -57, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af5n0pO6EeezXo5z341mVQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af5n05O6EeezXo5z341mVQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af5n1JO6EeezXo5z341mVQ" type="4001" element="_aest8pO6EeezXo5z341mVQ" source="_afexEJO6EeezXo5z341mVQ" target="_afexEJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af6O4JO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af6O4ZO6EeezXo5z341mVQ" x="1" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af6O4pO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af6O45O6EeezXo5z341mVQ" x="-7" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af6O5JO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af6O5ZO6EeezXo5z341mVQ" x="2" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af5n1ZO6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af5n1pO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af5n15O6EeezXo5z341mVQ" points="[15, -6, 15, -6]$[42, -16, 42, -16]$[42, 13, 42, 13]$[15, 4, 15, 4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af6O5pO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af6O55O6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af6O6JO6EeezXo5z341mVQ" type="4001" element="_aetVApO6EeezXo5z341mVQ" source="_afeKAJO6EeezXo5z341mVQ" target="_afeKAJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af618ZO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af618pO6EeezXo5z341mVQ" x="-12" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af6185O6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af619JO6EeezXo5z341mVQ" x="6" y="6"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af619ZO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af619pO6EeezXo5z341mVQ" x="-11" y="25"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af6O6ZO6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af6O6pO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af618JO6EeezXo5z341mVQ" points="[-6, 15, -6, 15]$[-15, 42, -15, 42]$[-45, 42, -45, 42]$[-15, 14, -15, 14]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af6195O6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af7dAJO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af7dAZO6EeezXo5z341mVQ" type="4001" element="_aeujIJO6EeezXo5z341mVQ" source="_afeKAJO6EeezXo5z341mVQ" target="_afexEJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af7dBZO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af7dBpO6EeezXo5z341mVQ" x="-9" y="1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af7dB5O6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af7dCJO6EeezXo5z341mVQ" x="13" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af7dCZO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af7dCpO6EeezXo5z341mVQ" x="7" y="-12"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af7dApO6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af7dA5O6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af7dBJO6EeezXo5z341mVQ" points="[15, -24, -43, 64]$[43, -66, -15, 22]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af8EEJO6EeezXo5z341mVQ" id="(0.5,1.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af8EEZO6EeezXo5z341mVQ" id="(0.5,0.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af8EEpO6EeezXo5z341mVQ" type="4001" element="_aevKMJO6EeezXo5z341mVQ" source="_afexEJO6EeezXo5z341mVQ" target="_afeKAJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af8EFpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8EF5O6EeezXo5z341mVQ" x="30" y="12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af8EGJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8EGZO6EeezXo5z341mVQ" x="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af8EGpO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8EG5O6EeezXo5z341mVQ" x="12" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af8EE5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af8EFJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af8EFZO6EeezXo5z341mVQ" points="[-15, 5, 43, -83]$[-73, 28, -15, -60]$[-66, 58, -8, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af8rIJO6EeezXo5z341mVQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af8rIZO6EeezXo5z341mVQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af8rIpO6EeezXo5z341mVQ" type="4001" element="_aewYUpO6EeezXo5z341mVQ" source="_afhNUJO6EeezXo5z341mVQ" target="_afh0YJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af8rJpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8rJ5O6EeezXo5z341mVQ" x="10" y="-5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af8rKJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8rKZO6EeezXo5z341mVQ" x="-7" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af8rKpO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af8rK5O6EeezXo5z341mVQ" x="-8" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af8rI5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af8rJJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af8rJZO6EeezXo5z341mVQ" points="[-15, -1, 99, 0]$[-107, -1, 7, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af9SMJO6EeezXo5z341mVQ" id="(0.5,0.8333333333333334)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af9SMZO6EeezXo5z341mVQ" id="(0.7666666666666667,0.8)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af9SMpO6EeezXo5z341mVQ" type="4001" element="_aexmcJO6EeezXo5z341mVQ" source="_afhNUJO6EeezXo5z341mVQ" target="_afh0ZZO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af9SNpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af9SN5O6EeezXo5z341mVQ" x="1" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af9SOJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af9SOZO6EeezXo5z341mVQ" x="-8" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af9SOpO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af9SO5O6EeezXo5z341mVQ" x="5" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af9SM5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af9SNJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af9SNZO6EeezXo5z341mVQ" points="[-15, 0, 71, 32]$[-74, 0, 12, 32]$[-85, -28, 1, 4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af95QJO6EeezXo5z341mVQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af95QZO6EeezXo5z341mVQ" id="(0.7333333333333333,0.8666666666666667)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af95QpO6EeezXo5z341mVQ" type="4001" element="_aeyNgpO6EeezXo5z341mVQ" source="_afh0ZZO6EeezXo5z341mVQ" target="_afh0ZZO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af95RpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af95R5O6EeezXo5z341mVQ" x="-1" y="13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af95SJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af95SZO6EeezXo5z341mVQ" x="3" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af95SpO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af95S5O6EeezXo5z341mVQ" x="3" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af95Q5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af95RJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af95RZO6EeezXo5z341mVQ" points="[15, 4, 15, 4]$[48, 13, 48, 13]$[48, -16, 48, -16]$[15, -5, 15, -5]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af-gUJO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af-gUZO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af-gUpO6EeezXo5z341mVQ" type="4001" element="_aezboJO6EeezXo5z341mVQ" source="_afh0YJO6EeezXo5z341mVQ" target="_afh0YJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af-gVpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-gV5O6EeezXo5z341mVQ" x="21" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-gWJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-gWZO6EeezXo5z341mVQ" x="18" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af-gWpO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af-gW5O6EeezXo5z341mVQ" x="5" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af-gU5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af-gVJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af-gVZO6EeezXo5z341mVQ" points="[-15, 3, -15, 3]$[-50, 13, -50, 13]$[-50, 42, -50, 42]$[-10, 42, -10, 42]$[-4, 15, -4, 15]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af_HYJO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af_HYZO6EeezXo5z341mVQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af_HYpO6EeezXo5z341mVQ" type="4001" element="_ae0CsJO6EeezXo5z341mVQ" source="_afh0YJO6EeezXo5z341mVQ" target="_afh0ZZO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af_HZpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_HZ5O6EeezXo5z341mVQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_HaJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_HaZO6EeezXo5z341mVQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_HapO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_Ha5O6EeezXo5z341mVQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af_HY5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af_HZJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af_HZZO6EeezXo5z341mVQ" points="[0, 0, -40, 60]$[40, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af_ucJO6EeezXo5z341mVQ" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_af_ucZO6EeezXo5z341mVQ" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_af_ucpO6EeezXo5z341mVQ" type="4001" element="_ae0pwJO6EeezXo5z341mVQ" source="_afh0ZZO6EeezXo5z341mVQ" target="_afh0YJO6EeezXo5z341mVQ">
+          <children xmi:type="notation:Node" xmi:id="_af_udpO6EeezXo5z341mVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_ud5O6EeezXo5z341mVQ" x="-8" y="16"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_ueJO6EeezXo5z341mVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_ueZO6EeezXo5z341mVQ" x="5" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_af_uepO6EeezXo5z341mVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_af_ue5O6EeezXo5z341mVQ" x="6" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_af_uc5O6EeezXo5z341mVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_af_udJO6EeezXo5z341mVQ" fontName="Noto Sans" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_af_udZO6EeezXo5z341mVQ" points="[-2, 1, 19, -47]$[-26, 14, -5, -34]$[-26, 44, -5, -4]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agAVgJO6EeezXo5z341mVQ" id="(0.06666666666666667,0.4666666666666667)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agAVgZO6EeezXo5z341mVQ" id="(0.3333333333333333,0.13333333333333333)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aFC41ZOvEeeumqzVUmyYOg" name="[]" outgoingEdges="_aFDgBpOvEeeumqzVUmyYOg _aFDgDJOvEeeumqzVUmyYOg" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.0"/>
+      <semanticElements xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_mUsPEJO7Eee2v9nMqT5XRQ" showIcon="false" labelColor="255,255,255" labelPosition="node" color="39,76,114">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@nodeMappings[name='Buffer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@nodeMappings[name='Buffer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aFC415OvEeeumqzVUmyYOg" name="[1, 0, 1]" outgoingEdges="_aFDgCZOvEeeumqzVUmyYOg _aFDgD5OvEeeumqzVUmyYOg" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.1"/>
+      <semanticElements xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_mUtdMJO7Eee2v9nMqT5XRQ" showIcon="false" labelColor="255,255,255" labelPosition="node" color="39,76,114">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:SquareDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@nodeMappings[name='Buffer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@nodeMappings[name='Buffer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_aFC42ZOvEeeumqzVUmyYOg" name="BitShifting1" incomingEdges="_aFDgBpOvEeeumqzVUmyYOg _aFDgD5OvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.0"/>
+      <semanticElements xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JjbDIJO7EeeI46ezr6nrew" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+        <labelFormat>underline</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_adsoYJO6EeezXo5z341mVQ" name="S0" outgoingEdges="_aepqoJO6EeezXo5z341mVQ _aesG4JO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.0"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aeJ7YJO6EeezXo5z341mVQ" showIcon="false" borderSize="3" borderSizeComputationExpression="3" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aeLJgJO6EeezXo5z341mVQ" name="S1" outgoingEdges="_aetVApO6EeezXo5z341mVQ _aeujIJO6EeezXo5z341mVQ" incomingEdges="_aepqoJO6EeezXo5z341mVQ _aetVApO6EeezXo5z341mVQ _aevKMJO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.1"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aeLwkJO6EeezXo5z341mVQ" showIcon="false" borderColor="69,69,69" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aeMXoJO6EeezXo5z341mVQ" name="S2" outgoingEdges="_aest8pO6EeezXo5z341mVQ _aevKMJO6EeezXo5z341mVQ" incomingEdges="_aesG4JO6EeezXo5z341mVQ _aest8pO6EeezXo5z341mVQ _aeujIJO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.2"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedStates.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aeM-sJO6EeezXo5z341mVQ" showIcon="false" borderColor="69,69,69" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_aFC44JOvEeeumqzVUmyYOg" name="BitShifting2" incomingEdges="_aFDgCZOvEeeumqzVUmyYOg _aFDgDJOvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.1"/>
+      <semanticElements xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JjcRQJO7EeeI46ezr6nrew" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+        <labelFormat>underline</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aeNlwJO6EeezXo5z341mVQ" name="S0" outgoingEdges="_aewYUpO6EeezXo5z341mVQ _aexmcJO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.0"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aeOz4JO6EeezXo5z341mVQ" showIcon="false" borderSize="3" borderSizeComputationExpression="3" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@conditionnalStyles.0/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aeOz4ZO6EeezXo5z341mVQ" name="S1" outgoingEdges="_aezboJO6EeezXo5z341mVQ _ae0CsJO6EeezXo5z341mVQ" incomingEdges="_aewYUpO6EeezXo5z341mVQ _aezboJO6EeezXo5z341mVQ _ae0pwJO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.1"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aePa8JO6EeezXo5z341mVQ" showIcon="false" borderColor="69,69,69" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_aeQCAJO6EeezXo5z341mVQ" name="S2" outgoingEdges="_aeyNgpO6EeezXo5z341mVQ _ae0pwJO6EeezXo5z341mVQ" incomingEdges="_aexmcJO6EeezXo5z341mVQ _aeyNgpO6EeezXo5z341mVQ _ae0CsJO6EeezXo5z341mVQ" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.2"/>
+        <semanticElements xmi:type="fsm:State" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedStates.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Ellipse" xmi:id="_aeQpEJO6EeezXo5z341mVQ" showIcon="false" borderColor="69,69,69" labelPosition="node" color="209,209,209">
+          <description xmi:type="style:EllipseNodeDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@containerMappings[name='StateMachine']/@subNodeMappings[name='State']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aFDgBpOvEeeumqzVUmyYOg" sourceNode="_aFC41ZOvEeeumqzVUmyYOg" targetNode="_aFC42ZOvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aFDgB5OvEeeumqzVUmyYOg" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='inputDependencies']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aFDgCJOvEeeumqzVUmyYOg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='inputDependencies']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aFDgCZOvEeeumqzVUmyYOg" sourceNode="_aFC415OvEeeumqzVUmyYOg" targetNode="_aFC44JOvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aFDgCpOvEeeumqzVUmyYOg" sourceArrow="InputArrow" targetArrow="NoDecoration" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='inputDependencies']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aFDgC5OvEeeumqzVUmyYOg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='inputDependencies']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aFDgDJOvEeeumqzVUmyYOg" sourceNode="_aFC41ZOvEeeumqzVUmyYOg" targetNode="_aFC44JOvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aFDgDZOvEeeumqzVUmyYOg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='outputDependencies']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aFDgDpOvEeeumqzVUmyYOg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='outputDependencies']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aFDgD5OvEeeumqzVUmyYOg" sourceNode="_aFC415OvEeeumqzVUmyYOg" targetNode="_aFC42ZOvEeeumqzVUmyYOg">
+      <target xmi:type="fsm:Buffer" href="test1_xdsml.fsm#//@ownedBuffer.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aFDgEJOvEeeumqzVUmyYOg" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='outputDependencies']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aFDgEZOvEeeumqzVUmyYOg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='outputDependencies']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GFOCcJOxEeeU5ZSt2AtuEQ" name="consummedString = " visible="false" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.0"/>
+      <semanticElements xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" xmi:id="_GGdYkJOxEeeU5ZSt2AtuEQ" showIcon="false" labelPosition="node" color="246,139,139">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@additionalLayers[name='Animation']/@nodeMappings[name='consummedString']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@additionalLayers[name='Animation']/@nodeMappings[name='consummedString']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_GGemsJOxEeeU5ZSt2AtuEQ" name="consummedString = " visible="false" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.1"/>
+      <semanticElements xmi:type="fsm:StateMachine" href="test1_xdsml.fsm#//@ownedStateMachines.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Note" xmi:id="_GGfNwJOxEeeU5ZSt2AtuEQ" showIcon="false" labelPosition="node" color="246,139,139">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:NoteDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@additionalLayers[name='Animation']/@nodeMappings[name='consummedString']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@additionalLayers[name='Animation']/@nodeMappings[name='consummedString']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aepqoJO6EeezXo5z341mVQ" name="1 / 0" sourceNode="_adsoYJO6EeezXo5z341mVQ" targetNode="_aeLJgJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.0"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aeq4wJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aeq4wZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aesG4JO6EeezXo5z341mVQ" name="0 / 0" sourceNode="_adsoYJO6EeezXo5z341mVQ" targetNode="_aeMXoJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.1"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aest8JO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aest8ZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aest8pO6EeezXo5z341mVQ" name="0 / 0" sourceNode="_aeMXoJO6EeezXo5z341mVQ" targetNode="_aeMXoJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.2"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aetVAJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aetVAZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aetVApO6EeezXo5z341mVQ" name="1 / 1" sourceNode="_aeLJgJO6EeezXo5z341mVQ" targetNode="_aeLJgJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.3"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aet8EJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aet8EZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aeujIJO6EeezXo5z341mVQ" name="0 / 1" sourceNode="_aeLJgJO6EeezXo5z341mVQ" targetNode="_aeMXoJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.4"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aeujIZO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aeujIpO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aevKMJO6EeezXo5z341mVQ" name="1 / 0" sourceNode="_aeMXoJO6EeezXo5z341mVQ" targetNode="_aeLJgJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.5"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.0/@ownedTransitions.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aewYUJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aewYUZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aewYUpO6EeezXo5z341mVQ" name="1 / 0" sourceNode="_aeNlwJO6EeezXo5z341mVQ" targetNode="_aeOz4ZO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.0"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aew_YJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aew_YZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aexmcJO6EeezXo5z341mVQ" name="0 / 0" sourceNode="_aeNlwJO6EeezXo5z341mVQ" targetNode="_aeQCAJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.1"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aeyNgJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aeyNgZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aeyNgpO6EeezXo5z341mVQ" name="0 / 0" sourceNode="_aeQCAJO6EeezXo5z341mVQ" targetNode="_aeQCAJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.2"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aey0kJO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aey0kZO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_aezboJO6EeezXo5z341mVQ" name="1 / 1" sourceNode="_aeOz4ZO6EeezXo5z341mVQ" targetNode="_aeOz4ZO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.3"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.3"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_aezboZO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_aezbopO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ae0CsJO6EeezXo5z341mVQ" name="0 / 1" sourceNode="_aeOz4ZO6EeezXo5z341mVQ" targetNode="_aeQCAJO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.4"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ae0CsZO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ae0CspO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_ae0pwJO6EeezXo5z341mVQ" name="1 / 0" sourceNode="_aeQCAJO6EeezXo5z341mVQ" targetNode="_aeOz4ZO6EeezXo5z341mVQ">
+      <target xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.5"/>
+      <semanticElements xmi:type="fsm:Transition" href="test1_xdsml.fsm#//@ownedStateMachines.1/@ownedTransitions.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_ae0pwZO6EeezXo5z341mVQ">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_ae0pwpO6EeezXo5z341mVQ" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer/@edgeMappings[name='EventTransition']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_aFDgEpOvEeeumqzVUmyYOg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.gemoc.sample.legacyfsm.xsfsm.design/description/XSFSM.odesign#//@ownedViewpoints[name='XFSM']/@ownedRepresentations[name='XFSM']/@defaultLayer"/>
+    <target xmi:type="fsm:FSMSystem" href="test1_xdsml.fsm#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

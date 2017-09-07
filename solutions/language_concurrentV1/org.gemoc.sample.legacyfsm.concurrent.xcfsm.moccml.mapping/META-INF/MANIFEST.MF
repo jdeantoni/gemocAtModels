@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mapping
+Bundle-SymbolicName: org.gemoc.sample.legacyfsm.concurrent.xcfsm.moccml.mapping
+Bundle-Version: 1.0.0.qualifier

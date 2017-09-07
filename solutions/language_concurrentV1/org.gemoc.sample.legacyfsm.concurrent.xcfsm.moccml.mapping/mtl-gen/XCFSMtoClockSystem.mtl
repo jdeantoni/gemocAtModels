@@ -1,0 +1,120 @@
+[comment encoding = UTF-8 /]
+
+[module generate('http://fr.inria.aoste.timemodel.ccslmodel.clockexpressionandrelation', 
+	'http://www.eclipse.org/emf/2002/Ecore', 
+	'http://org.gemoc.moccml/1.0', 
+	'http://fr.inria.aoste.timemodel',
+	'http://org.gemoc.moccml.fsmmodel/1.0',
+	) ]
+
+[template public generate(aFSMSystem : FSMSystem)]
+[comment @main/]
+[file (aFSMSystem.name+'_withMoC-.clocksystem', false, 'UTF-8')]
+
+"Some global constants"
+|system moccmllibs ccsllibs|
+"MoCCML librairies specifications" 
+
+	"CCSL librairies specifications"
+
+
+"Instanciation" 
+
+
+system := ClockSystem named: '[aFSMSystem.name/]_withMoC-'.
+system addLibrary:moccmllibs asDictionary.
+"system addLibs:ccsllibs asDictionary."
+
+[for (element : fsm::FSMSystem| aFSMSystem.eAllContents(fsm::FSMSystem))]
+"clocks for FSMSystem [element.name/]" 
+system addClocks: #(initializeIt[element.name/]).
+
+"internal clocks for fsm::FSMSystem [element.name/]" 
+	system addInternalClocks: #(firstRun[element.name/]).
+system addInternalClocks: #(firstInitOccurrence[element.name/]).
+
+[/for]
+[for (element : fsm::StateMachine| aFSMSystem.eAllContents(fsm::StateMachine))]
+"clocks for StateMachine [element.name/]" 
+system addClocks: #(runIt[element.name/]).
+
+[/for]
+[for (element : fsm::Buffer| aFSMSystem.eAllContents(fsm::Buffer))]
+"clocks for Buffer [element.name/]" 
+"internal clocks for fsm::Buffer [element.name/]" 
+	system addInternalClocks: #(allOutputReads[element.name/]).
+system addInternalClocks: #(allOutputReadsWIV[element.name/]).
+system addInternalClocks: #(allReadsButInitialOnes[element.name/]).
+
+[/for]
+
+[for (element : fsm::FSMSystem| aFSMSystem.eAllContents(fsm::FSMSystem))]
+"expressions used by  FSMSystem [element.name/]" 
+
+	[if ( ->size()>1) ]
+	system allInf: #(runItrunIt()ownedStateMachines()self[ownedStateMachines.name/]) named: #firstRun[element.name/]. 
+	[/if]
+ 
+
+	[if ( ->size()>1) ]
+	system allOneTickAndDie: #(initializeIt()self[element.name/]) named: #firstInitOccurrence[element.name/]. 
+	[/if]
+ 
+"relations for FSMSystem [element.name/]" 
+	"initBeforeRun in FSMSystem [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Precedes clocks: #(firstRun[element.name/])  constants:{-1} .
+		[/if]
+	"initOnlyOnce in FSMSystem [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Coincides clocks: #(firstInitOccurrence[element.name/]) .
+		[/if]
+[/for]
+[for (element : fsm::StateMachine| aFSMSystem.eAllContents(fsm::StateMachine))]
+"relations for StateMachine [element.name/]" 
+[/for]
+[for (element : fsm::Buffer| aFSMSystem.eAllContents(fsm::Buffer))]
+"expressions used by  Buffer [element.name/]" 
+
+	[if ( ->size()>1) ]
+	system allUnion: #(runItrunIt()outputs()self[outputs.name/]) named: #allOutputReads[element.name/]. 
+	[/if]
+ 
+
+	[if ( ->size()>1) ]
+	system allUnion: #(runItrunIt()outputs()self[outputs.name/]) named: #allOutputReadsWIV[element.name/]. 
+	[/if]
+ 
+
+	[if ( true) ]
+	system allDelayFor: #() named: #allReadsButInitialOnes[element.name/]. 
+	[/if]
+ 
+"relations for Buffer [element.name/]" 
+	"oneReadAtATime in Buffer [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Exclusion clocks: #() .
+		[/if]
+	"oneWriteAtATime in Buffer [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Exclusion clocks: #() .
+		[/if]
+	"WriteBufferReadNoInitialValue in Buffer [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Precedes clocks: #(allOutputReads[element.name/])  constants:{-1} .
+		[/if]
+	"WriteBufferReadWithInitialValue in Buffer [element.name/]"
+		[if ( true) ]
+	system library: #Kernel relation: #Precedes clocks: #(allReadsButInitialOnes[element.name/])  constants:{-1} .
+		[/if]
+[/for]
+[/file]
+[file ('ClkSysFunctionTest.clocksystem', false, 'UTF-8')]
+SimpleSDF example1 system
+[/file]
+
+
+[/template]
+
+
+
